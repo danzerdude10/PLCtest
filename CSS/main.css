@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .custom-container {
     padding: 5px 10px;
 }
@@ -31,12 +35,14 @@
 }
 
 .fa-arrow-up {
+    color: white;
     font-size: 75px;
     display: block;
     padding: 0;
 }
 
 .fa-arrow-down {
+    color: white;
     font-size: 75px;
     display: block;
     padding: 0;
@@ -53,12 +59,14 @@
 }
 
 .lbl-quantity {
+    color: white;
     padding: 0;
-    margin: 10px 0;
+    margin: 35px 0;
     font-size: 70px;
 }
 
 .lbl-defect-category {
+    color: white;
     margin: 5px 0;
     margin-top: -5px;
     font-size: 22px;
@@ -68,6 +76,7 @@
 }
 
 .lbl-defect-reason {
+    color: white;
     margin: 5px 0;
     margin-top: 4px;
     font-size: 22px;
@@ -77,6 +86,7 @@
 }
 
 .lbl-part {
+    color: white;
     padding-left: 15px;
     margin: 5px 0;
     margin-top: -5px;
@@ -111,7 +121,7 @@
     border-top-right-radius: 25px;
     color: black;
     margin-bottom: 0;
-    background-color: #989a9c6b;
+    background-color: white;
     font-weight: bold;
     padding: 28px 0;
     text-align: center;
@@ -122,10 +132,10 @@
     width: 100%;
     margin-bottom: 0;
     border-bottom-right-radius: 25px;
-    background-color: #ff00001a;
+    background-color: white;
     color: red;
     font-style: italic;
-    padding: 28px 20px;
+    padding: 27px 20px;
     right: 0;
 }
 
@@ -147,7 +157,7 @@
 }
 
 .btn-defect-category {
-    background-color: #75cbff7a;
+    background-color: #a8deff;
     font-size: 30px;
     width: 23%;
     margin: 5px;
@@ -162,7 +172,7 @@
 }
 
 .btn-defect-reason {
-    background-color: #ffb8f654;
+    background-color: #ffe0fb;
     font-size: 30px;
     width: 23%;
     margin: 5px;
@@ -173,11 +183,11 @@
 
 .btn-defect-reason-selected {
     color: white;
-    background-color: #ff34e5;
+    background-color: #ff47e7;
 }
 
 .btn-part {
-    background-color: #ffcf7580;
+    background-color: #ffb9a3;
     font-size: 30px;
     width: 23%;
     margin: 8px;
@@ -188,7 +198,7 @@
 
 .btn-part-selected {
     color: white;
-    background-color: #ff7800d6;
+    background-color: #ff5500;
 }
 
 .accept-container {
