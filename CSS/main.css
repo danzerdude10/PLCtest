@@ -27,6 +27,7 @@
 
 .team-scoll-container {
     padding: 10px 20px;
+    text-align: center;
 }
 
 .fa-arrow-up {
@@ -68,7 +69,7 @@
 
 .lbl-defect-reason {
     margin: 5px 0;
-    margin-top: -5px;
+    margin-top: 4px;
     font-size: 22px;
     font-weight: bold;
     position: relative;
@@ -76,6 +77,7 @@
 }
 
 .lbl-part {
+    padding-left: 15px;
     margin: 5px 0;
     margin-top: -5px;
     font-size: 22px;
@@ -97,21 +99,38 @@
 }
 
 .lbl-prod-cell {
+    color: white;
     margin-bottom: 0;
-    background-color: #80808026;
+    background-color: #2644b5;
     font-weight: bold;
-    padding: 9px 0;
+    padding: 8px 0;
     text-align: center;
 }
 
-.lbl-error-msg {
-    margin-bottom: 0;
+.lbl-page {
     border-top-right-radius: 25px;
+    color: black;
+    margin-bottom: 0;
+    background-color: #989a9c6b;
+    font-weight: bold;
+    padding: 28px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lbl-error-msg {
+    width: 100%;
+    margin-bottom: 0;
+    border-bottom-right-radius: 25px;
     background-color: #ff00001a;
     color: red;
     font-style: italic;
-    padding: 29px;
+    padding: 28px 20px;
     right: 0;
+}
+
+.error-container {
+    padding-left: 0;
 }
 
 .quantity-container {
@@ -128,15 +147,22 @@
 }
 
 .btn-defect-category {
+    background-color: #75cbff7a;
     font-size: 30px;
     width: 23%;
     margin: 5px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 4px;
+}
+
+.btn-defect-category-selected {
+    color: white;
+    background-color: #0088da;
 }
 
 .btn-defect-reason {
+    background-color: #ffb8f654;
     font-size: 30px;
     width: 23%;
     margin: 5px;
@@ -145,7 +171,13 @@
     border-radius: 4px;
 }
 
+.btn-defect-reason-selected {
+    color: white;
+    background-color: #ff34e5;
+}
+
 .btn-part {
+    background-color: #ffcf7580;
     font-size: 30px;
     width: 23%;
     margin: 8px;
@@ -154,13 +186,20 @@
     border-radius: 4px;
 }
 
+.btn-part-selected {
+    color: white;
+    background-color: #ff7800d6;
+}
+
 .accept-container {
     padding-left: 0;
+    padding-right: 0;
 }
 
 .btn-accept {
+    width: 100%;
     font-weight: bold;
     background-color: #37d83d;
-    padding: 20px 100px;
+    padding: 20px 10px;
     border-bottom-left-radius: 25px;
 }
