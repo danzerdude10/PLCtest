@@ -1,0 +1,166 @@
+.custom-container {
+    padding: 5px 10px;
+}
+
+.defect-categories-container {
+    overflow: auto;
+    padding: 20px 15px;
+    padding-right: 0;
+    display: block;
+}
+
+.defect-reasons-container {
+    margin: 10px 0;
+    overflow: auto;
+    padding: 20px 15px;
+    box-shadow: 0px 0px 1px 1px grey;
+    display: block;
+}
+
+.part-num-container {
+    margin: 10px 14px;
+    overflow: auto;
+    padding: 0 15px;
+    display: block;
+    width: 97%;
+}
+
+.team-scoll-container {
+    padding: 10px 20px;
+}
+
+.fa-arrow-up {
+    font-size: 75px;
+    display: block;
+    padding: 0;
+}
+
+.fa-arrow-down {
+    font-size: 75px;
+    display: block;
+    padding: 0;
+}
+
+.fa-arrow-left {
+    font-size: 65px;
+    display: inline-block;
+}
+
+.fa-arrow-right {
+    font-size: 65px;
+    display: inline-block;
+}
+
+.lbl-quantity {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 70px;
+}
+
+.lbl-defect-category {
+    margin: 5px 0;
+    margin-top: -5px;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    display: block;
+}
+
+.lbl-defect-reason {
+    margin: 5px 0;
+    margin-top: -5px;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    display: block;
+}
+
+.lbl-part {
+    margin: 5px 0;
+    margin-top: -5px;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    display: block;
+}
+
+.lbl-team-scroll {
+    margin: 0 35px;
+}
+
+.lbl-machine {
+    margin-bottom: 0;
+    border-top-left-radius: 25px;
+    background-color: #37d83d;
+    padding: 22px;
+    text-align: center;
+}
+
+.lbl-prod-cell {
+    margin-bottom: 0;
+    background-color: #80808026;
+    font-weight: bold;
+    padding: 9px 0;
+    text-align: center;
+}
+
+.lbl-error-msg {
+    margin-bottom: 0;
+    border-top-right-radius: 25px;
+    background-color: #ff00001a;
+    color: red;
+    font-style: italic;
+    padding: 29px;
+    right: 0;
+}
+
+.quantity-container {
+    padding: 0;
+    max-width: 100px;
+    margin: 10px 0;
+    margin-top: 58px;
+    text-align: center;
+}
+
+.quantity-container-parent {
+    margin-left: -20px;
+    padding: 0;
+}
+
+.btn-defect-category {
+    font-size: 30px;
+    width: 23%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.btn-defect-reason {
+    font-size: 30px;
+    width: 23%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.btn-part {
+    font-size: 30px;
+    width: 23%;
+    margin: 8px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.accept-container {
+    padding-left: 0;
+}
+
+.btn-accept {
+    font-weight: bold;
+    background-color: #37d83d;
+    padding: 20px 100px;
+    border-bottom-left-radius: 25px;
+}
