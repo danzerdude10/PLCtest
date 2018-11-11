@@ -35,14 +35,14 @@ body {
 }
 
 .fa-arrow-up {
-    color: white;
+    color: gray;
     font-size: 75px;
     display: block;
     padding: 0;
 }
 
 .fa-arrow-down {
-    color: white;
+    color: gray;
     font-size: 75px;
     display: block;
     padding: 0;
@@ -108,6 +108,10 @@ body {
     text-align: center;
 }
 
+.lbl-machine:active {
+    box-shadow: inset 0px 0px 9px 0px black;
+}
+
 .lbl-prod-cell {
     color: white;
     margin-bottom: 0;
@@ -115,6 +119,10 @@ body {
     font-weight: bold;
     padding: 8px 0;
     text-align: center;
+}
+
+.lbl-prod-cell:active {
+    box-shadow: inset 0px 0px 9px 0px black;
 }
 
 .lbl-page {
@@ -126,6 +134,10 @@ body {
     padding: 28px 0;
     text-align: center;
     margin-top: 20px;
+}
+
+.lbl-page:active {
+    box-shadow: inset 0px 0px 9px 0px black;
 }
 
 .lbl-error-msg {
@@ -141,6 +153,7 @@ body {
 
 .error-container {
     padding-left: 0;
+    padding-right: 0;
 }
 
 .quantity-container {
@@ -171,6 +184,10 @@ body {
     background-color: #0088da;
 }
 
+.btn-defect-category:active {
+    box-shadow: inset 0px 0px 9px 0px black;
+}
+
 .btn-defect-reason {
     background-color: #ffe0fb;
     font-size: 30px;
@@ -184,6 +201,10 @@ body {
 .btn-defect-reason-selected {
     color: white;
     background-color: #ff47e7;
+}
+
+.btn-defect-reason:active {
+    box-shadow: inset 0px 0px 9px 0px black;
 }
 
 .btn-part {
@@ -201,6 +222,83 @@ body {
     background-color: #ff5500;
 }
 
+.btn-part:active {
+    box-shadow: inset 0px 0px 9px 0px black;
+}
+
+.btn-machines {
+    background-color: #80808078;
+    font-size: 30px;
+    height: 90px;
+    width: 23%;
+    margin: 8px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.btn-machines:active {
+    box-shadow: inset 0px 0px 9px 0px black;
+}
+
+.btn-machines-selected {
+    outline: auto;
+    box-shadow: inset 0px 0px 9px 0px black;
+}
+
+.btn-teams {
+    color: white;
+    background-color: #2644b5;
+    font-size: 30px;
+    height: 90px;
+    width: 23%;
+    margin: 8px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.btn-teams:active {
+    box-shadow: inset 0px 0px 9px 0px black;
+}
+
+.btn-teams-selected {
+    color: black;
+    background-color: red;
+}
+
+.btn-forming-machines {
+    background-color: #a8deff;
+    font-size: 30px;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.btn-forming-machines-selected {
+    background-color: #0088da;
+    color: white;
+}
+
+.btn-forming-machines:active {
+    box-shadow: inset 0px 0px 9px 0px black;
+}
+
+.green-status {
+    background-color: #37d83d;
+}
+
+.red-status {
+    color: white;
+    background-color: red;
+}
+
+.yellow-status {
+    background-color: yellow;
+}
+
 .accept-container {
     padding-left: 0;
     padding-right: 0;
@@ -212,4 +310,61 @@ body {
     background-color: #37d83d;
     padding: 20px 10px;
     border-bottom-left-radius: 25px;
+}
+
+.btn-accept:active {
+    box-shadow: inset 0px 0px 9px 0px black;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.btn-primary {
+    font-size: 28px;
+}
+
+.btn-secondary {
+    font-size: 26px;
+}
+
+.modal-title {
+    display: inline-block;
+}
+
+.close {
+    font-size: 50px;
+}
+
+.nav-tabs>li>a {
+    font-size: 24px;
+}
+
+.modal-body { 
+    overflow: auto;
+}
+
+.modal-footer {
+    padding-top: 0px;
+}
+
+#divFormingMachines {
+    position: absolute;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 1px solid black;
+    border-bottom-color: transparent;
+}
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
 }
