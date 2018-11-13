@@ -247,8 +247,7 @@ body {
 }
 
 .btn-teams {
-    color: white;
-    background-color: #2644b5;
+    background-color: red;
     font-size: 30px;
     height: 90px;
     width: 23%;
@@ -263,8 +262,8 @@ body {
 }
 
 .btn-teams-selected {
-    color: black;
-    background-color: red;
+    color: white;
+    background-color: #2644b5;
 }
 
 .btn-forming-machines {
